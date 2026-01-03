@@ -20,6 +20,9 @@ Pipeline that consumes data from the e-commerce API, transforms it, and saves it
 ```bash
 python main.py
 ```
+## Docker
+docker build -t api-pipeline .
+docker run api-pipeline
 
 ## Output
 
